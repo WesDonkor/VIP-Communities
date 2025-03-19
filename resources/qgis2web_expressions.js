@@ -763,3 +763,160 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule0_eval_expression(context) {
+    // district = 'KARAGA'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('district')  == 'KARAGA');
+    } else {
+        return (feature.get('district')  == 'KARAGA');
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule1_eval_expression(context) {
+    // district = 'KUNBUNGU'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('district')  == 'KUNBUNGU');
+    } else {
+        return (feature.get('district')  == 'KUNBUNGU');
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule2_eval_expression(context) {
+    // district = 'MION'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('district')  == 'MION');
+    } else {
+        return (feature.get('district')  == 'MION');
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule3_eval_expression(context) {
+    // district = 'TOLON'
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return (feature.get('district')  == 'TOLON');
+    } else {
+        return (feature.get('district')  == 'TOLON');
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule4_eval_expression(context) {
+    // district = 'KARAGA' AND cohort = 1
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('district')  == 'KARAGA') && (feature.get('cohort')  == 1));
+    } else {
+        return ((feature.get('district')  == 'KARAGA') && (feature.get('cohort')  == 1));
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule5_eval_expression(context) {
+    // district = 'KARAGA' AND cohort = 2
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('district')  == 'KARAGA') && (feature.get('cohort')  == 2));
+    } else {
+        return ((feature.get('district')  == 'KARAGA') && (feature.get('cohort')  == 2));
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule6_eval_expression(context) {
+    // district = 'KUNBUNGU' AND cohort = 1
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('district')  == 'KUNBUNGU') && (feature.get('cohort')  == 1));
+    } else {
+        return ((feature.get('district')  == 'KUNBUNGU') && (feature.get('cohort')  == 1));
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule7_eval_expression(context) {
+    // district = 'KUNBUNGU' AND cohort = 2
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('district')  == 'KUNBUNGU') && (feature.get('cohort')  == 2));
+    } else {
+        return ((feature.get('district')  == 'KUNBUNGU') && (feature.get('cohort')  == 2));
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule8_eval_expression(context) {
+    // district = 'MION' AND cohort = 1
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('district')  == 'MION') && (feature.get('cohort')  == 1));
+    } else {
+        return ((feature.get('district')  == 'MION') && (feature.get('cohort')  == 1));
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule9_eval_expression(context) {
+    // district = 'MION' AND cohort = 2
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('district')  == 'MION') && (feature.get('cohort')  == 2));
+    } else {
+        return ((feature.get('district')  == 'MION') && (feature.get('cohort')  == 2));
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule10_eval_expression(context) {
+    // district = 'TOLON' AND cohort = 1
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('district')  == 'TOLON') && (feature.get('cohort')  == 1));
+    } else {
+        return ((feature.get('district')  == 'TOLON') && (feature.get('cohort')  == 1));
+    }
+}
+
+
+function exp_VIP_new_CommunityList_NoNewCommunities_5rule11_eval_expression(context) {
+    // district = 'TOLON' AND cohort = 2
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.get('district')  == 'TOLON') && (feature.get('cohort')  == 2));
+    } else {
+        return ((feature.get('district')  == 'TOLON') && (feature.get('cohort')  == 2));
+    }
+}

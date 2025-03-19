@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:4326").setExtent([-1.636375, 9.224731, -0.003037, 10.159438]);
+//ol.proj.get("EPSG:4326").setExtent([-1.424356, 9.224731, -0.215056, 10.159438]);
 var wms_layers = [];
 
 
@@ -47,7 +47,7 @@ var lyr_Refactored_3 = new ol.layer.Vector({
                 source:jsonSource_Refactored_3, 
                 style: style_Refactored_3,
                 popuplayertitle: 'Refactored',
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/Refactored_3.png" /> Refactored'
             });
 var format_communities_4 = new ol.format.GeoJSON();
@@ -62,7 +62,7 @@ var lyr_communities_4 = new ol.layer.Vector({
                 source:jsonSource_communities_4, 
                 style: style_communities_4,
                 popuplayertitle: 'communities',
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/communities_4.png" /> communities'
             });
 var format_VIP_new_CommunityList_NoNewCommunities_5 = new ol.format.GeoJSON();
